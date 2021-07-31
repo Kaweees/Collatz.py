@@ -19,10 +19,10 @@ Implementation of the infamous Collatz Conjecture, which is also known as Hailst
 
 # Collatz Conjecture/Hailstone's Sequence
 
-[contributors-shield]: https://img.shields.io/github/contributors/Kaweees/Collatz.svg?style=for-the-badge
-[contributors-url]: https://github.com/Kaweees/Collatz/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Kaweees/Collatz.svg?style=for-the-badge
-[forks-url]: https://github.com/Kaweees/Collatz/network/members
-[stars-shield]: https://img.shields.io/github/stars/Kaweees/Collatz.svg?style=for-the-badge
-[stars-url]: https://github.com/Kaweees/Collatz/stargazers
+[contributors-shield]: https://img.shields.io/github/contributors/Kaweees/Collatz.py.svg?style=for-the-badge
+[contributors-url]: https://github.com/Kaweees/Collatz.py/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Kaweees/Collatz.py.svg?style=for-the-badge
+[forks-url]: https://github.com/Kaweees/Collatz.py/network/members
+[stars-shield]: https://img.shields.io/github/stars/Kaweees/Collatz.py.svg?style=for-the-badge
+[stars-url]: https://github.com/Kaweees/Collatz.py/stargazers
 
