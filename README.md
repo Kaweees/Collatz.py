@@ -6,7 +6,7 @@
 
 [<img src="assets/img/python-logo.png" align="right" width="150">](https://github.com/Kaweees/Collatz.py)
 
-Implementation of the infamous Collatz Conjecture, which is also known as Hailstone's Sequence written in Python 3.
+Implementation of the infamous Collatz Conjecture, which is also known as Hailstone's Sequence, written in Python 3.
 
 ### Built With
 
