@@ -32,4 +32,3 @@ To learn more about the Collatz conjecture, visit the [Wikipedia Article](https:
 [forks-url]: https://github.com/Kaweees/Collatz.py/network/members
 [stars-shield]: https://img.shields.io/github/stars/Kaweees/Collatz.py.svg?style=for-the-badge
 [stars-url]: https://github.com/Kaweees/Collatz.py/stargazers
-
