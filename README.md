@@ -18,7 +18,11 @@ Implementation of the infamous Collatz Conjecture, which is also known as Hailst
 
 
 # Collatz conjecture
-The Collatz conjecture is a conjecture in mathematics that proposes that given any nonnegative interger greater than or equal 1, the elements ```[4, 2, 1]``` will be infinitely repeated by the sequence created by replicating the following algorithm:
+The Collatz conjecture is a conjecture in mathematics that proposes that given any nonnegative odd interger greater than or equal 1, the elements ```[4, 2, 1]``` will be infinitely repeated by the sequence created by replicating the following algorithm:
+ 1. Start with any nonnegative odd interger greater than or equal 1 as the first term.
+ 2. If the previous term is even, the next term is one half the previous term.
+ 3. If the previous term is odd, the next term is 3 times the previous term plus 1.
+ 4. Repeat Steps 1-3 with the created term
 
 To learn more about the Collatz conjecture, visit the [Wikipedia Article](https://en.wikipedia.org/wiki/Collatz_conjecture) attributed to it.
 
