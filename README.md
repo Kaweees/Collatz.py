@@ -17,7 +17,10 @@ Implementation of the infamous Collatz Conjecture, which is also known as Hailst
    - matplotlib.pyplot
 
 
-# Collatz Conjecture/Hailstone's Sequence
+# Collatz conjecture
+The Collatz conjecture is a conjecture in mathematics that proposes that given any nonnegative interger greater than or equal 1, the elements ```[4, 2, 1]``` will be infinitely repeated by the sequence created by replicating the following algorithm:
+
+To learn more about the Collatz conjecture, visit the [Wikipedia Article](https://en.wikipedia.org/wiki/Collatz_conjecture) attributed to it.
 
 [contributors-shield]: https://img.shields.io/github/contributors/Kaweees/Collatz.py.svg?style=for-the-badge
 [contributors-url]: https://github.com/Kaweees/Collatz.py/graphs/contributors
