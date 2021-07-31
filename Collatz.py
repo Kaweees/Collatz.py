@@ -45,6 +45,22 @@ class Collatz:
       self.graph(x, y, 'Steps Taken', 'Current Value', 'Steps Taken to Reach Collatz Conjecture Loop!')
     else:
       print(f"{num} is an invalid input")
-
+  def output(self):
+    num = int(input("Input: "))
+    if num >= 1 and num % 2 == 1 and isinstance(num, int):
+      specialStep = 1
+      output = num
+      stepsList = [num]
+      while output != specialStep:
+        if output % 2 == 0:
+          output = int(output / 2)
+        else:
+          output = 3 * output + 1
+        stepsList.append(str(output))
+      y = [str(step) for step in stepsList]   # corresponding y axis values
+      print(f"Output: {' '.join(y)}")
+    else:
+      print(f"{num} is an invalid input")
 C = Collatz()
 C.loop()
+C.output()
