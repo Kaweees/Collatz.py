@@ -61,6 +61,25 @@ class Collatz:
       print(f"Output: {' '.join(y)}")
     else:
       print(f"{num} is an invalid input")
+  def calculate(self):
+    num = int(input("Input: "))
+    steps = int(input("Amount of Steps to make: "))
+    if num >= 1 and num % 2 == 1 and isinstance(num, int) and steps >= 1 and isinstance(steps, int):
+      specialStep = 1
+      output = num
+      stepsList = [num]
+      for i in range(steps):
+        if output % 2 == 0:
+          output = int(output / 2)
+        else:
+          output = 3 * output + 1
+        stepsList.append(str(output))
+      y = [str(step) for step in stepsList]   # corresponding y axis values
+      print(f"Output: {' '.join(y)}")
+    else:
+      print(f"{num} is an invalid input")
+
 C = Collatz()
 C.loop()
 C.output()
+C.calculate()
