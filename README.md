@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 
-# Hailstone.py
+# Collatz.py
 
 [<img src="assets/img/python-logo.png" align="right" width="150">](https://github.com/Kaweees/Hailstone.py)
 
